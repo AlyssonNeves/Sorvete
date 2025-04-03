@@ -1,0 +1,34 @@
+🔍 Etapas do Projeto
+1. Importação e Exploração dos Dados
+Dataset: temperatura x vendas
+
+Visualização com gráficos (scatter plot, histograma, etc.)
+
+Cálculo da correlação entre variáveis
+
+2. Pré-processamento dos Dados
+Verificação de valores nulos
+
+Normalização/Padronização (se necessário)
+
+3. Treinamento do Modelo
+Modelo de regressão linear simples (inicialmente)
+
+Métricas de avaliação: MAE, MSE, R²
+
+4. Registro e Gerenciamento com MLflow
+Registro do experimento com mlflow.start_run()
+
+Armazenamento dos parâmetros e métricas
+
+Salvamento do modelo com mlflow.sklearn.log_model()
+
+5. Implantação do Modelo
+Código simples com streamlit, flask ou fastapi para previsão em tempo real (opcional)
+
+Interface mínima para entrada de temperatura e exibição da previsão
+
+6. Pipeline Reprodutível
+Uso de funções ou scripts organizados
+
+Execução completa do fluxo: leitura → treino → teste → exportação
